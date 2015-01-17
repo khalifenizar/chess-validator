@@ -18,4 +18,11 @@ class Piece
     def decode_letter(letter)
         return letter.bytes[0] - 96
     end
+
+    def distance(target)
+        target_x, target_y = self.decode_algebraic(target)
+        x = target_x - @x
+        y = target_y - @y
+        return x, y
+    end
 end

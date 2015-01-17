@@ -1,11 +1,10 @@
 class Piece
     def initialize(algebraic, set)
-        # TODO: improve algebraic setter interface
-        self.algebraic(algebraic)
+        self.algebraic = algebraic
         @set = set.to_sym
     end
 
-    def algebraic(algebraic)
+    def algebraic=(algebraic)
         @algebraic = algebraic.to_sym
         @x, @y = self.decode_algebraic(@algebraic)
     end

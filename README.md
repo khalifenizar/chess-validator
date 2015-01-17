@@ -1,4 +1,4 @@
 Chess Validator
 ===============
 
-Validate chess movements. This is an Ironhack exercise.
+Validate chess moves. This is an Ironhack exercise.

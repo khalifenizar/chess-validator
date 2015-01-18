@@ -1,4 +1,6 @@
 class ChessPosition
+    attr_reader(:algebraic)
+
     def initialize(algebraic)
         @algebraic = algebraic.to_sym
         @x, @y = self.decode_algebraic(@algebraic)

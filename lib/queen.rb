@@ -1,5 +1,5 @@
-require_relative "move/diagonal_move"
-require_relative "move/straight_move"
+require_relative "moves/diagonal_move"
+require_relative "moves/straight_move"
 require_relative "piece"
 
 class Queen < Piece

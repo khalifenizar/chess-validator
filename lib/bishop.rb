@@ -1,4 +1,4 @@
-require_relative "move/diagonal_move"
+require_relative "moves/diagonal_move"
 require_relative "piece"
 
 class Bishop < Piece

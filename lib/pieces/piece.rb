@@ -1,4 +1,4 @@
-require_relative "chess_position"
+require_relative "../chess_position"
 
 class Piece
     def initialize(algebraic, set)

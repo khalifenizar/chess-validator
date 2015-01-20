@@ -46,6 +46,7 @@ class ChessBoard
 
     def move?(start, target)
         piece = @positions[start]
+        return false if piece.nil?
         return piece.move_to(target)
     end
 end
